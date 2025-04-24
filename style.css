@@ -1,0 +1,91 @@
+
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+  body {
+    font-family: 'Georgia', serif;
+    background-color: #f6f5ef;
+    color: #2c2c2c;
+  }
+  
+  header {
+    padding: 20px 40px;
+    background-color: #f6f5ef;
+  }
+  
+  nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  nav .logo {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+    gap: 25px;
+    font-size: 16px;
+  }
+  
+  .hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 60px 40px;
+  }
+  
+  .content {
+    max-width: 50%;
+  }
+  
+  .content h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+  }
+  
+  .content .highlight {
+    color: #f39c12;
+    font-style: italic;
+  }
+  
+  .content p {
+    font-size: 18px;
+    margin-bottom: 30px;
+  }
+  
+  button {
+    background-color: #f39c12;
+    border: none;
+    padding: 12px 24px;
+    font-size: 16px;
+    color: white;
+    cursor: pointer;
+  }
+  
+  .image img {
+    width: 400px;
+    border-radius: 10px;
+  }
+  
+  li{
+    color:black;
+  }
+   
+ 
+  .nav-items a:hover{
+    color: rgb(0, 255, 119);
+    border-bottom: 5px solid rgb(0, 170, 255);
+  }
+  #nav{
+background-color: #e1b56f;
+border-radius: 5px;
+padding: 10px;
+  }
