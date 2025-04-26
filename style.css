@@ -90,3 +90,10 @@ background-color: #e1b56f;
 border-radius: 5px;
 padding: 10px;
   }
+
+ .sub-topic{
+    border-bottom:solid 3px #f39c12 ;
+    width: fit-content;
+    
+  }
+
